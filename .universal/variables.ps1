@@ -1,0 +1,3 @@
+﻿New-PSUVariable -Name "AzureDevOpsSourceName" -Type "String" -Description "Name of the source to add to Chocolatey (Can be anything)."
+New-PSUVariable -Name "AzureDevOpsSourceUrl" -Type "String" -Description "Azure DevOps Url to the package management feed hosting the Chocolatey packages."
+New-PSUVariable -Name "AzureDevOpsPAT" -Vault "BuiltInLocalVault" -Type "String" -Description "Azure DevOps Personal Access Token to autenticate, search and install packages."

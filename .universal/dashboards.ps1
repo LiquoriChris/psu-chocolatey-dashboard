@@ -1,0 +1,1 @@
+﻿New-PSUDashboard -Name "Chocolatey" -FilePath "dashboards\Chocolatey\dashboard.ps1" -BaseUrl "/dashboard/chocolatey" -Framework "UniversalDashboard:Latest" -Environment "PowerShell" -SessionTimeout 0
